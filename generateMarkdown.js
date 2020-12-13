@@ -23,6 +23,7 @@ ${data.installation}
 ## About
 ${data.name}
 ${data.email}
+${data.about}
   `;
 }
 
