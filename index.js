@@ -5,6 +5,7 @@ const generateMarkdown = require('./generateMarkdown')
 
 
 
+
 // array of questions for user
 const questions = [
     {
@@ -125,12 +126,12 @@ const questions = [
         }   
        },
        {
-        type: 'confirm',
+        type: 'checkbox',
         name: 'confirmAbout',
         message: 'Would you like to enter some information about yourself for an "About" section?',
-        default: true
-      },
-      {
+        choices: ['YES', 'NO']
+        },
+        {
         type: 'input',
         name: 'about',
         message: 'Provide some information about yourself:',
@@ -140,12 +141,15 @@ const questions = [
           } else {
             return false;
           }
-        }
-      }
+        }   
+    }
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+    return fs.writeFileSync( 'README.md', data, );
+    
+
 }
 
 // function to initialize program
@@ -153,9 +157,10 @@ function init() {
 inquirer.prompt(questions)
 .then((res) =>{
     const test = generateMarkdown(res)
+    writeToFile(test);
     console.log(test)
 })
 }
 
-// function call to initialize program
-init();
+// function call to initialize program();
+init()

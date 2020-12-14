@@ -1,24 +1,25 @@
-# ${Title}
-
+# Mr. Handsome
 
 ## Description
-${description}
+The life and lifestyle of Mr. Handsome and the choices he makes.
 
 ## License
-${license}
+license...to kill.
 
 ## Test
-${test}
+Run Handsome Run
 
 ## Usage
-${usage}
+Nothing
 
 ## Contributors
-${contributors}
+ME
 
 ## Installation
-${installation}
+Start Mr. Handsome
 
 ## About
-${name}
-${email}
+Robert Campagna
+RWCNYLA@gmail.com
+No, this is all you need to know.
+  
