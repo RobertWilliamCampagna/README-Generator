@@ -1,4 +1,4 @@
-# MR. Handsome
+# The Life of Mr Handsome
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Table of Contents
@@ -11,25 +11,25 @@
 *[About](#about)
 
 ## Description
-About the life and choices Mr Handsome makes, most of them are poor.
+Mr Handsome.  The life he lives and the choices he makes.
 
 ## License
 MIT
 
 ## Test
-Start MR HANDSOME
+RUN handsome RUN
 
 ## Usage
-NOTHING
+Nada
 
 ## Contributors
-Bobbito
+Me
 
 ## Installation
-Start me up
+Start MR HANDSOME
 
 ## About
-Mr. Handsome
-RWCNYLA@gmail.com
-Im MR. Handsome
+Mr Handsome
+MrHansome@handsome.com
+Na...I changed my mind.
   
