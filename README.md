@@ -1,3 +1,6 @@
+README GENERATOR:  This will generate a basic README.md file for your project using JavaScript.  In terminal, user will be promt with questions.  After finishing the questions a README.md file will be made.<br>
+
+
 # The Life of Mr Handsome
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
